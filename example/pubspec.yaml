@@ -1,0 +1,16 @@
+name: locationiq_autocomplete_flutter_example
+description: Example for locationiq_autocomplete_flutter
+publish_to: "none"
+
+environment:
+  sdk: ^3.8.0
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  locationiq_autocomplete_flutter:
+    path: ../
+
+flutter:
+  uses-material-design: true
