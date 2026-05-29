@@ -54,7 +54,7 @@ class _DemoPageState extends State<DemoPage> {
         child: Column(
           children: [
             LocationIQAutocompleteField(
-              // api: api,
+              api: api,
               request: const LocationIQAutocompleteRequest(
                 limit: 8,
                 countrycodes: 'id',

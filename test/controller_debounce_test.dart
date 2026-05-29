@@ -1,5 +1,3 @@
-import 'dart:async';
-
 import 'package:flutter_test/flutter_test.dart';
 import 'package:locationiq_autocomplete_flutter/locationiq_autocomplete_flutter.dart';
 

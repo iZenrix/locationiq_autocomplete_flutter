@@ -21,14 +21,11 @@ Use of the LocationIQ API is subject to LocationIQ’s Terms of Service. You mus
 
 ## Installation
 
-Until this package is published on pub.dev, add it from Git:
+Add the package from pub.dev:
 
 ```yaml
 dependencies:
-  locationiq_autocomplete_flutter:
-    git:
-      url: https://github.com/iZenrix/locationiq_autocomplete_flutter.git
-      ref: main
+  locationiq_autocomplete_flutter: ^0.1.0
 ```
 
 Then run:
@@ -45,7 +42,7 @@ import 'package:locationiq_autocomplete_flutter/locationiq_autocomplete_flutter.
 
 ## Getting an API key
 
-Create an API key from your LocationIQ account, then pass it to the API client.
+Create an API key from your LocationIQ account, then pass it to the API client. Do not commit production API keys into your app repository.
 
 ## Basic usage
 
